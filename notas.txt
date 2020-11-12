@@ -1,0 +1,46 @@
+Introduction 1:00
+Project setup 3:33
+Create data classes 8:52
+Service interface 12:41
+Create a retrofit instance 16:42
+Http Get request Example  19:48
+Query parameters 28:13
+Path parameters 30:20
+Http Logging Interceptor 35:32
+Set timeouts with OkHttp3 41:24
+Http POST request example 44:40
+
+
+Pasos para la modificación del formato Json:
+1) DataClass
+2) Interfaz de Servicio
+3) Retrofit Instance Class
+
+lista de pasos en los archivos
+1)build.grandle
+2)androidManifest
+3)se metío a la configuración de android 
+studio y instaló el plugin de json to kotlin class
+4)después copie el texto que mostraba la api y la pegué en un archivo
+del plugin JSON to kotlin, le puse un nombre y generé la clase albums
+5) se creo la interfaz de albumservice
+6) se hace la clase RetrofitInstance
+7) se hace la actividad principal en el main activity, con esto se hace la obtención 
+   de datos que saca la API
+8) consultamos a la API, pero datos específicos
+9) pasamos los pathparameters(despues de esto ordenó 
+   el código en funciones)
+10)httploggingInterceptor(además de implementar la librería, hago la variable
+   dentro del retrofiinstance)
+11)tiempo de refresqueo
+12)posteamos con retrofit
+
+*Revisar la variable Interceptor en el retrofit instance*
+
+
+
+
+
+
+
+
